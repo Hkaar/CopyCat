@@ -6,11 +6,12 @@ from console import Console
 class Core:
     @staticmethod
     def bytes_to_mb(size: int) -> float|int:
+        """Converts bytes to megabytes"""
         return size/1024/1024
     
     @staticmethod
     def copy(src: str, dst: str, home: str = Path.cwd(), verbose: bool = False):
-        home = home
+        """Copies the content of a source directory towards a destination"""
 
         src_path = Path(f"{home}/{src}")
         dst_path = Path(f"{home}/{dst}")

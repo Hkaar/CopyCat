@@ -5,7 +5,7 @@ A simple cli utility to backup your files
 
 ## Features
 - Fully backup any folders you want to a source directory
-- Control/Filter on what you backup based on size or name
+- Control/Filter on what you backup based on size
 -  No extra installation of external modules required
 
 ## Changelog
