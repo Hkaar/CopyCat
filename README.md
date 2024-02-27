@@ -13,21 +13,21 @@ A simple cli utility to backup your files
 
 Clone the repository to your machine :
 
-`
+```
 git clone https://github.com/Hkaar/CopyCat.git
-`
+```
 
 Install the required packages :
 
-`
+```
 pip install -r requirements.txt
-`
+```
 
 You can configure the tool like this :
 
-`
+```
 python main.py config <key> <value>
-`
+```
 
 Or just edit the <mark>config.json</mark> file
 
@@ -37,12 +37,12 @@ And then your all set for using copycat
 
 How to copy files :
 
-`
+```
 python main.py copy [options] <source> <destination>
-`
+```
 
 How to configure CopyCat :
 
-`
+```
 python main.py config <key> <value>
-`
+```
