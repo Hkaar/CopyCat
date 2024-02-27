@@ -1,0 +1,11 @@
+{
+    "size_limit": 400,
+    "exclude": [
+        "__pycache__",
+        "env",
+        "RPL",
+        "Bahasa Bali",
+        "node_modules",
+        "my-app"
+    ]
+}
